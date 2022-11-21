@@ -1,0 +1,3 @@
+Name:Marta
+Surname:Son
+U: UEK , Applied Informatics
