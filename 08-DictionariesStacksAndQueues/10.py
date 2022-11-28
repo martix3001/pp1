@@ -4,7 +4,10 @@ arr = [{"country": "Poland", "population": 2352},
        {"country": "turtur", "population": 12341},
        {"country": "Puff", "population": 635247}]
 
-key = 0
-while key < len(arr):
-    print(arr[key])
-    key += 1
+c= 0
+while c < len(arr):
+    for key,value in arr[c].items():
+        print(key,value,end=" ")
+    print()    
+    c+=1
+     
