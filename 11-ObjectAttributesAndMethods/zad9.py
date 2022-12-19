@@ -25,12 +25,17 @@ class Arrays():
         arr = []
         for i in range((number_of_array_elements)):
             arr.append(random.randint(value_from,value_to))
-        print (arr)
+        return arr
     @staticmethod
     def zliczacz(array, value_from, value_to):        
-        hello = 1
+        count = 0
+        for i in array:
+            if i >= value_from and i <= value_to:
+                count += 1
+        print(count)        
 
 my_array = [4,1,8,7,2,6,3,3,5,6,7,354]
-Arrays.appending(3,3)
-Arrays.radomizator(7,10,20)
+Arrays.appending(4,10)
+arr = Arrays.radomizator(20,-7,8)
+Arrays.zliczacz(arr,-1,1)
 Arrays.display_in_row(my_array)
