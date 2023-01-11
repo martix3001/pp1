@@ -1,0 +1,23 @@
+test_p1 (__main__.Test) ... ok
+test_p2 (__main__.Test) ... ok
+test_p3 (__main__.Test) ... ok
+test_p4 (__main__.Test) ... ok
+test_p5 (__main__.Test) ... ok
+test_p6 (__main__.Test) ... ok
+test_p7 (__main__.Test) ... ok
+test_p8 (__main__.Test) ... ERROR
+
+======================================================================
+ERROR: test_p8 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\PP3-test\test3_ZZISS1_1114.py", line 54, in test_p8
+    self.assertEqual(self.s1.m2("WZ"),90)
+  File "c:\Users\Admin\Desktop\PP3-test\p8.py", line 11, in m2
+    sum += self.dic[i]
+KeyError: 'W'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+FAILED (errors=1)
